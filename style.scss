@@ -1,0 +1,169 @@
+@import "css/mixin";
+@import "reset";
+#header{
+  .header{
+    @include df;
+    &--nav{
+      a{
+        font-family: 'Roboto',sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(31, 46, 53, 0.8);
+padding: 0 25px;
+      }
+select{
+  border: none;
+}
+    }
+    &--icons{
+img{
+  padding: 0 10px;
+}
+    }
+  }
+}
+#hero{
+  .hero{
+    padding: 60px 0;
+   @include df;
+    &--left{
+      h1{
+        color: #30444E;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 133.69%;
+      }
+      h2{
+        color: red;
+        font-weight: 700;
+        font-size: 48px;
+        padding: 10px 0 ;
+      }
+      p{
+        color: #30444E;
+        font-weight: 400;
+        font-size: 20px;
+        padding: 10px 0 ;
+
+      }
+      button{
+        padding: 10px 30px;
+        color: white;
+        background: red;
+        border: none;
+      }
+    }
+  }
+}
+#global{
+  .global{
+    background: #F7F7F7;;
+  @include df;
+  &--right{
+   h1{
+     font-weight: 500;
+     font-size: 32px;
+     line-height: 133.69%;
+     color: #1F2E35;
+   }
+    b{
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 133.69%;
+      color: red;
+
+    }
+   div>p{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+     color: #30444E;
+
+    }
+    p{
+      padding: 20px 0 ;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 150%;
+      color: #30444E;
+
+    }
+
+  }
+    &--left{
+      img{
+        width: 452.94px;
+        height: 472px;
+padding: 0 0 70px 0;
+      }
+    }
+  }
+}
+#service{
+  .service{
+    margin-top: 70px ;
+    h1{
+      font-weight: 500;
+      font-size: 32px;
+      text-align: center;
+      color: #1F2E35;
+    }
+    &--all{
+      padding: 40px;
+      @include df;
+
+    button{
+      @include btn;
+    }
+    p{
+      @include txt;
+    }
+    h3{
+      @include ss;
+    }
+
+    }
+  }
+}
+#contact{
+  .contact{
+   display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    h1{
+      padding: 10px 0 ;
+    }
+    &--left{
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 149.19%;
+      color: #263238;
+    }
+    &--right{
+padding: 0 90px ;
+p{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+a{
+  color: black;
+}
+}
+    }
+  }
+}
+#footer{
+  .footer{
+
+    background: #EE4248;
+  h5{
+    height: 64px;
+    color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+  }

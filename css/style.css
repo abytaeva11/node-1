@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header--nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(31, 46, 53, 0.8);
+  padding: 0 25px;
+}
+#header .header--nav select {
+  border: none;
+}
+#header .header--icons img {
+  padding: 0 10px;
+}
+
+#hero .hero {
+  padding: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hero .hero--left h1 {
+  color: #30444E;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 133.69%;
+}
+#hero .hero--left h2 {
+  color: red;
+  font-weight: 700;
+  font-size: 48px;
+  padding: 10px 0;
+}
+#hero .hero--left p {
+  color: #30444E;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 0;
+}
+#hero .hero--left button {
+  padding: 10px 30px;
+  color: white;
+  background: red;
+  border: none;
+}
+
+#global .global {
+  background: #F7F7F7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#global .global--right h1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: #1F2E35;
+}
+#global .global--right b {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133.69%;
+  color: red;
+}
+#global .global--right div > p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444E;
+}
+#global .global--right p {
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444E;
+}
+#global .global--left img {
+  width: 452.94px;
+  height: 472px;
+  padding: 0 0 70px 0;
+}
+
+#service .service {
+  margin-top: 70px;
+}
+#service .service h1 {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #1F2E35;
+}
+#service .service--all {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#service .service--all button {
+  width: 97px;
+  height: 36px;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 5px;
+}
+#service .service--all p {
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #30444E;
+}
+#service .service--all h3 {
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 28px;
+  color: #EE4248;
+}
+
+#contact .contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#contact .contact h1 {
+  padding: 10px 0;
+}
+#contact .contact--left {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+#contact .contact--right {
+  padding: 0 90px;
+}
+#contact .contact--right p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 149.19%;
+  color: #263238;
+}
+#contact .contact--right p a {
+  color: black;
+}
+
+#footer .footer {
+  background: #EE4248;
+}
+#footer .footer h5 {
+  height: 64px;
+  color: #F7F7F7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

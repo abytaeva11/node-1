@@ -1,0 +1,31 @@
+
+@mixin df
+{
+    display: flex;
+justify-content: space-between;
+  align-items: center;
+
+}
+@mixin btn{
+  width: 97px;
+  height: 36px;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 5px;
+}
+@mixin txt{
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+   color: #30444E;
+
+}
+@mixin ss{
+  padding: 10px 0 ;
+  font-weight: 500;
+  font-size: 28px;
+   color: #EE4248;
+
+}
